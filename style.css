@@ -233,6 +233,7 @@ body {
     }
     #pop-up-wrapper #pop-up {
         width: 70vw;
+        height: 400px;
     }
 }
 
