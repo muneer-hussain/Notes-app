@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes app</title>
+    <script src="https://kit.fontawesome.com/0b87f0ca63.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="addNote">
+        <i class="fa fa-plus-circle"></i>
+        <p id="add-note-second-part">Add Note</p>
+    </section>
+
+    <!-- notes  -->
+    <!-- pop up box  -->
+
+    <span id="pop-up-wrapper">
+      <span id="pop-up">
+        <i class="fa fa-times" id="closePopup" aria-hidden="true"></i>
+        <span id="pop-up-written">Add a new note</span>
+    <label for="title" id="title-label">Title</label>
+    <input type="text" id="title" spellcheck="false">
+    <label for="description" id="description-label">Description</label>
+    <textarea id="description" spellcheck="false"></textarea>
+    <button id="pop-up-add-btn">Add Note</button>
+    </span>
+    </span>
+    <script src="script.js"></script>
+</body>
+
+</html>
