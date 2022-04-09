@@ -205,7 +205,7 @@ body {
 
 @media (max-width :500px) {
     #addNote {
-        width: 210px;
+        width: 219px;
         padding: 0;
         margin-bottom: 80px;
         display: inline-block;
