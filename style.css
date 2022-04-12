@@ -210,6 +210,10 @@ body {
         margin-bottom: 80px;
         display: inline-block;
     }
+
+    .date {
+     font-size: 17px;
+     }
     .note {
         width: 80vw;
         padding: 0px;
