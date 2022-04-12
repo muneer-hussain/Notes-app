@@ -228,11 +228,11 @@ body {
         display: block;
     }
     .fa-pencil {
-        bottom: 50px;
+        bottom: 65px;
         margin-left: 10px;
     }
     .fa-trash {
-        bottom: 50px;
+        bottom: 65px;
         left: 40px;
     }
     #pop-up-wrapper #pop-up {
